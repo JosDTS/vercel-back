@@ -31,3 +31,4 @@ app.use("/api/login", login);
 app.use("/api/teacher", teacher);
 
 
+module.exports = app;
