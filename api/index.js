@@ -30,5 +30,8 @@ app.get("/api", function(req, res) {
 app.use("/api/login", login);
 app.use("/api/teacher", teacher);
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Vercel");
+});
 
 module.exports = app;
